@@ -1,0 +1,105 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+}
+
+header a{
+    background: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:20px
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header h1{
+    color: white;
+    margin-top: 1%;
+    font-size: 35px ;
+}
+
+ul{
+    background-color: white;
+    background-image: linear-gradient(45deg,#e221f9,#2479f1);
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    list-style-type: none;
+    border-radius: 30px;
+}
+li{
+    background: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+li.hover{
+    background-color: red;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding:15px 20px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#e221f9,#2479f1);
+    font-size: 15px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s ;
+}
+
+.content{
+    color: white;
+    margin-left: 5%;
+    margin-top: 7%;
+    max-width: 600px;
+}
+
+.content h2{
+    font-size: 30px;
+    color: white;
+}
+
+.content p{
+    margin: 10px 0 30px;
+}
+
+.content .btn{
+    padding: 15px 80px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+
+.features-img{
+    width: 580px;
+    position: absolute;
+    bottom: 5%;
+    margin-right: 2%;
+    margin-left: 820px;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
