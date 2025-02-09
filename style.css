@@ -62,7 +62,7 @@ li.hover{
 .content{
     color: white;
     margin-left: 5%;
-    margin-top: 7%;
+    margin-top: 6%;
     max-width: 600px;
 }
 
@@ -87,7 +87,7 @@ li.hover{
 .features-img{
     width: 580px;
     position: absolute;
-    bottom: 5%;
+    bottom: 7%;
     margin-right: 2%;
     margin-left: 820px;
 }
@@ -102,4 +102,10 @@ li.hover{
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+footer{
+    margin-top: 12%;
+    text-align: center;
+    color: white;
 }
