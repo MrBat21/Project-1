@@ -1,5 +1,13 @@
 *{
+    padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: black;
 }
 
@@ -42,10 +50,6 @@ li{
 
 }
 
-li.hover{
-    background-color: red;
-}
-
 .btn{
     display: inline-block;
     text-decoration: none;
@@ -58,10 +62,18 @@ li.hover{
     transition: 0.5s ;
 }
 
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 48vh;
+}
+
 .content{
     color: white;
-    margin-left: 5%;
-    margin-top: 6%;
+    margin-right: 795px;
+    margin-top: 8%;
     max-width: 600px;
 }
 
@@ -85,9 +97,9 @@ li.hover{
 .features-img{
     width: 580px;
     position: absolute;
-    bottom: 7%;
+    bottom: 10%;
     margin-right: 2%;
-    margin-left: 820px;
+    margin-left: 800px;
 }
 
 .anim{
@@ -102,8 +114,72 @@ li.hover{
     }
 }
 
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 30px; 
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box {
+    margin-bottom: 12px;
+    width: calc(100% / 2 - 10px);
+  }
+
+form .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+.user-details .input-box input {
+    height: 40px;
+    width: 80%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 0.5px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+ 
+  .user-details .input-box input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+}
+
+.user-details .input-box fieldset {
+    width: 76.5%; /* Match input width */
+    height: 40px; /* Match input height */
+    border-radius: 5px; /* Same rounded corners as input */
+    border: 0.5px solid #ccc;
+    padding: 10px 10px; /* Adjust padding for content */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    gap: 40px; /* Space between radio buttons */
+}
+
+.user-details .input-box fieldset legend {
+    font-size: 16px;
+    font-weight: 500;
+}
+
 footer{
     margin-top: 12%;
     text-align: center;
     color: white;
 }
+
