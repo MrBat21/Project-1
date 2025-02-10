@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Apply</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="jobs.html">Job</a></li>
+                    <li><a href="apply.html">Apply</a></li>
+                    <li><a href="enhancements.html">Enhancement</a></li>
+                </ul>
+            </div>
+                <h1 class="anim">Application Form</h1>
+            </nav>
+        </header>
+        <div class="container">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Job reference number</span>
+                        <input type="text" placeholder=" ">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">First name</span>
+                        <input type="text" placeholder=" ">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last name</span>
+                        <input type="text" placeholder=" ">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date of birth</span>
+                        <input type="date" placeholder="">
+                    </div>
+                    <div class="input-box">
+                        <fieldset>
+                        <legend>Gender</legend>
+                        <label>Male<input type="radio" id="gender" name="gender" value="male" required="required"></label>
+                        <label>Female<input type="radio" id="gender" name="gender" value="male" required="required"></label>
+                        </fieldset>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Street Address</span>
+                        <input type="text" placeholder=" ">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Suburb/town</span>
+                        <input type="text" placeholder=" ">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">State</span>
+                        <select name="state" id="state">
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Postcode</span>
+                        <input type="text" placeholder=" ">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email address</span>
+                        <input type="email">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone number</span>
+                        <input type="tel">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Skill list</span>
+                        <input type="checkbox" placeholder=" ">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Other skills</span>
+                        <textarea name="other-skills" rows="5" cols="20"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
