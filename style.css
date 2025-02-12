@@ -13,6 +13,7 @@ body{
 
 header{
     text-align: center;
+    font-weight: 500;
 }
 
 header a{
@@ -262,7 +263,7 @@ form .btn2 input{
 }
 
 footer{
-    margin-top: 12%;
+    margin-top: 15%;
     text-align: center;
     color: white;
 }
