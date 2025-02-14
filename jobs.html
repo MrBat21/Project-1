@@ -2,16 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
     <title>Job Descriptions</title>
 </head>
 <body>
-    <header class="main-header">
-        <h1>Job Descriptions</h1>
+    <header>
+        <nav>
+            <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="jobs.html">Job</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="enhancements.html">Enhancement</a></li>
+            </ul>
+        </div>
+        <h1 class="anim">Jobs</h1>
     </header>
 
-    <main class="content">
-        <section class="job full-stack-developer">
+    <main class="jobs-content"> <!-- add anim class-->
+        <div class="full-stack-developer"> 
             <h2 class="job-title">Full Stack Developer</h2>
             <h3 class="responsibilities-header">Responsibilities:</h3>
             <ul class="responsibilities-list">
@@ -27,9 +38,9 @@
                 <li>Strong knowledge of databases (SQL and NoSQL).</li>
                 <li>Familiarity with APIs, version control systems, and CI/CD pipelines.</li>
             </ul>
-        </section>
+        </div>
 
-        <section class="job data-scientist">
+        <div class="data-scientist">
             <h2 class="job-title">Data Scientist</h2>
             <h3 class="responsibilities-header">Responsibilities:</h3>
             <ul class="responsibilities-list">
@@ -45,9 +56,9 @@
                 <li>Knowledge of data visualization tools like Tableau or Power BI.</li>
                 <li>Solid understanding of statistics and data analysis techniques.</li>
             </ul>
-        </section>
+        </div>
 
-        <section class="job back-end-developer">
+        <div class="back-end-developer">
             <h2 class="job-title">Back-End Developer</h2>
             <h3 class="responsibilities-header">Responsibilities:</h3>
             <ul class="responsibilities-list">
@@ -62,11 +73,12 @@
                 <li>Experience with databases (MySQL, MongoDB) and RESTful API design.</li>
                 <li>Knowledge of cloud services (e.g., AWS, Azure) is a plus.</li>
             </ul>
-        </section>
+        </div>
     </main>
 
     <footer class="main-footer">
-        <p>&copy; 2025 Job Descriptions. All Rights Reserved.</p>
+        <div class="name">&#169; 2025 SFC, All rights reserved.</div>
+        <div class="contact">Contact Us: example@gmail.com</div>
     </footer>
 </body>
 </html>
