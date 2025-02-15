@@ -263,8 +263,8 @@ form .btn2 input{
 }
 
 .jobs-content{
+    display: flex;
     color: white;
-    margin-left: 30px;
 }
 
 .jobs-content ul{
@@ -275,8 +275,29 @@ form .btn2 input{
     font-weight: 500;
 }
 
+.full-stack-developer{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
 footer{
     margin-top: 15%;
     text-align: center;
     color: white;
+}
+
+.data-scientist{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.back-end-developer{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
 }
