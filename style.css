@@ -269,6 +269,7 @@ form .btn2 input{
 
 .jobs-content ul{
     background: none;
+    list-style-type: none;
 }
 
 .jobs-content li{
