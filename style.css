@@ -303,7 +303,7 @@ form .btn2 input{
 
 .about{
     color: white;
-    margin: 200px 600px 0px 0px;
+    margin: 250px 0px 0px 0px;
     max-width: 1200px;
     font-size: 18px;
 }
@@ -315,12 +315,23 @@ form .btn2 input{
 
 .first_line{
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
 }
 .name{
     border: 2px solid white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 25px;
+    width: 75%;
+}
+
+.mail{
+    flex: 1;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    width: 25%;
 }
 
 footer{
