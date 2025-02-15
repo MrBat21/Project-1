@@ -287,12 +287,6 @@ form .btn2 input{
     background: none;
 }
 
-footer{
-    margin-top: 15%;
-    text-align: center;
-    color: white;
-}
-
 .data-scientist{
     border: 6px solid white;
     padding: 10px;
@@ -308,12 +302,28 @@ footer{
 }
 
 .about{
+    display: flex;
+    width: 1200px;
     color: white;
-    margin: 100px 800px 0px 0px;
-    max-width: 500px;
+    margin: 200px 600px 0px 0px;
+    max-width: 1200px;
+    font-size: 18px;
 }
 
 .about ul{
     display: inline-block;
     list-style-type: none;
  }
+
+.name{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+footer{
+    margin-top: 15%;
+    text-align: center;
+    color: white;
+}
+
