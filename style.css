@@ -275,6 +275,10 @@ form .btn2 input{
     font-weight: 500;
 }
 
+.member-list ul{
+    background: none;
+}
+
 footer{
     margin-top: 15%;
     text-align: center;
