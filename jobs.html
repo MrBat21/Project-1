@@ -1,84 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.1">
-    <title>Job Descriptions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Roles Information</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="jobs.html">Job</a></li>
-                <li><a href="apply.html">Apply</a></li>
-                <li><a href="enhancements.html">Enhancement</a></li>
-            </ul>
-        </div>
-        <h1 class="anim">Jobs</h1>
+  <div class="container">
+    <header class="header">
+      <h1 class="header-title">Job Roles Information</h1>
+      <p class="header-description">Explore detailed descriptions, responsibilities, importance, and modern applications of key tech roles.</p>
     </header>
 
-    <main class="jobs-content anim"> <!-- add anim class-->
-        <div class="full-stack-developer"> 
-            <h2 class="job-title">Full Stack Developer</h2>
-            <h3 class="responsibilities-header">Responsibilities:</h3>
-            <ul class="responsibilities-list">
-                <li>Design and implement end-to-end web applications.</li>
-                <li>Build user-friendly front-end interfaces and scalable back-end systems.</li>
-                <li>Collaborate with cross-functional teams to define, design, and ship new features.</li>
-                <li>Ensure responsiveness, security, and high performance of applications.</li>
-                <li>Troubleshoot and debug software issues.</li>
-            </ul>
-            <h3 class="skills-header">Skills:</h3>
-            <ul class="skills-list">
-                <li>Proficiency in front-end frameworks (e.g., React, Angular) and back-end technologies (e.g., Node.js, Django).</li>
-                <li>Strong knowledge of databases (SQL and NoSQL).</li>
-                <li>Familiarity with APIs, version control systems, and CI/CD pipelines.</li>
-            </ul>
-        </div>
+    <!-- Back-End Developer Section -->
+    <section class="job-role back-end-developer">
+      <h2 class="role-title">Back-End Developer</h2>
 
-        <div class="data-scientist">
-            <h2 class="job-title">Data Scientist</h2>
-            <h3 class="responsibilities-header">Responsibilities:</h3>
-            <ul class="responsibilities-list">
-                <li>Analyze complex datasets to derive actionable insights.</li>
-                <li>Build and deploy machine learning models to solve business problems.</li>
-                <li>Develop predictive models and algorithms for decision-making.</li>
-                <li>Communicate findings through visualizations and reports.</li>
-            </ul>
-            <h3 class="skills-header">Skills:</h3>
-            <ul class="skills-list">
-                <li>Strong expertise in Python, R, or similar languages.</li>
-                <li>Experience with machine learning frameworks (e.g., TensorFlow, Scikit-learn).</li>
-                <li>Knowledge of data visualization tools like Tableau or Power BI.</li>
-                <li>Solid understanding of statistics and data analysis techniques.</li>
-            </ul>
-        </div>
+      <div class="role-description">
+        <h3 class="section-title">Job Description</h3>
+        <p class="description-text">A Back-End Developer is the architect of the unseen. They design, build, and maintain the infrastructure of web applications, ensuring seamless communication between the user interface and server. By focusing on scalability, security, and performance, they lay the groundwork for a smooth user experience.</p>
+      </div>
 
-        <div class="back-end-developer">
-            <h2 class="job-title">Back-End Developer</h2>
-            <h3 class="responsibilities-header">Responsibilities:</h3>
-            <ul class="responsibilities-list">
-                <li>Develop, maintain, and optimize server-side logic and APIs.</li>
-                <li>Build and integrate scalable, reliable, and secure back-end systems.</li>
-                <li>Work closely with front-end developers to align APIs with UI needs.</li>
-                <li>Monitor and troubleshoot system performance issues.</li>
-            </ul>
-            <h3 class="skills-header">Skills:</h3>
-            <ul class="skills-list">
-                <li>Proficiency in server-side languages like Python, Java, or PHP.</li>
-                <li>Experience with databases (MySQL, MongoDB) and RESTful API design.</li>
-                <li>Knowledge of cloud services (e.g., AWS, Azure) is a plus.</li>
-            </ul>
-        </div>
-    </main>
+      <div class="role-responsibilities">
+        <h3 class="section-title">Responsibilities</h3>
+        <ul class="responsibility-list">
+          <li>Develop server-side logic using languages like Python, Java, Ruby, or Node.js.</li>
+          <li>Create and integrate APIs to enable communication between the front-end and back-end.</li>
+          <li>Design and optimize databases for efficient data management.</li>
+          <li>Monitor and improve server performance for fast response times.</li>
+          <li>Ensure application security with robust authentication and authorization.</li>
+          <li>Collaborate with front-end developers and product managers to deliver robust applications.</li>
+          <li>Debug and troubleshoot server-side issues to ensure smooth functionality.</li>
+        </ul>
+      </div>
 
-    <footer class="main-footer">
-        <div class="footer">&#169; 2025 SFC, All rights reserved.</div>
-        <div class="contact">Contact Us: example@gmail.com</div>
-    </footer>
+      <div class="role-importance">
+        <h3 class="section-title">The Impact of This Role</h3>
+        <p class="importance-text">Back-end development powers the digital world. Without it, modern applications would lack the functionality to support real-time operations, secure transactions, and dynamic user interactions.</p>
+        <ul class="applications-list">
+          <li><strong>E-commerce platforms:</strong> Process orders, manage user accounts, and secure payments.</li>
+          <li><strong>Streaming services:</strong> Handle content libraries and user preferences.</li>
+          <li><strong>Healthcare systems:</strong> Manage patient records and enable secure data sharing.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Data Scientist Section -->
+    <section class="job-role data-scientist">
+      <h2 class="role-title">Data Scientist</h2>
+
+      <div class="role-description">
+        <h3 class="section-title">Job Description</h3>
+        <p class="description-text">Data Scientists are the modern-day explorers, digging through vast oceans of data to uncover hidden gems of knowledge. They turn raw data into actionable insights, enabling businesses to make informed decisions.</p>
+      </div>
+
+      <div class="role-responsibilities">
+        <h3 class="section-title">Responsibilities</h3>
+        <ul class="responsibility-list">
+          <li>Collect and preprocess raw data to ensure usability.</li>
+          <li>Develop predictive models using advanced machine learning techniques.</li>
+          <li>Create visualizations with tools like Tableau or Matplotlib to communicate insights.</li>
+          <li>Collaborate with business leaders to translate data into actionable strategies.</li>
+          <li>Perform A/B testing to evaluate new features or strategies.</li>
+          <li>Stay updated on cutting-edge AI and data science techniques.</li>
+        </ul>
+      </div>
+
+      <div class="role-importance">
+        <h3 class="section-title">The Impact of This Role</h3>
+        <p class="importance-text">Data drives innovation. A Data Scientist’s insights can save money, enhance customer experiences, and even save lives.</p>
+        <ul class="applications-list">
+          <li><strong>Healthcare:</strong> Predict disease risks and optimize hospital resources.</li>
+          <li><strong>Finance:</strong> Detect fraud and analyze market risks.</li>
+          <li><strong>Retail and marketing:</strong> Build recommendation engines and optimize campaigns.</li>
+          <li><strong>Sports analytics:</strong> Evaluate player performance and strategize game plans.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Full-Stack Developer Section -->
+    <section class="job-role full-stack-developer">
+      <h2 class="role-title">Full-Stack Developer</h2>
+
+      <div class="role-description">
+        <h3 class="section-title">Job Description</h3>
+        <p class="description-text">Full-Stack Developers are versatile craftsmen who master both front-end and back-end development. They bring concepts to life by designing engaging user interfaces while ensuring smooth functionality behind the scenes.</p>
+      </div>
+
+      <div class="role-responsibilities">
+        <h3 class="section-title">Responsibilities</h3>
+        <ul class="responsibility-list">
+          <li>Create responsive front-end interfaces using modern frameworks like React or Angular.</li>
+          <li>Build robust server-side functionality with languages like Python or Node.js.</li>
+          <li>Design and manage databases for efficient data storage and retrieval.</li>
+          <li>Develop APIs to connect front-end and back-end systems seamlessly.</li>
+          <li>Identify and resolve bugs across the application stack.</li>
+          <li>Collaborate with designers and QA teams to ensure cohesive development.</li>
+          <li>Implement security measures to prevent vulnerabilities.</li>
+        </ul>
+      </div>
+
+      <div class="role-importance">
+        <h3 class="section-title">The Impact of This Role</h3>
+        <p class="importance-text">Full-Stack Developers streamline development, delivering efficient and comprehensive solutions across all levels of application building.</p>
+        <ul class="applications-list">
+          <li><strong>Startups:</strong> Build MVPs quickly for testing business ideas.</li>
+          <li><strong>Social media:</strong> Develop platforms with real-time interaction.</li>
+          <li><strong>EdTech:</strong> Create platforms like online learning systems.</li>
+          <li><strong>IoT:</strong> Power connected devices like smart home systems.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <footer class="main-footer">
+    <div class="footer">&#169; 2025 SFC, All rights reserved.</div>
+    <div class="contact">Contact Us: example@gmail.com</div>
+</footer>
 </body>
 </html>
