@@ -302,8 +302,6 @@ form .btn2 input{
 }
 
 .about{
-    display: flex;
-    gap: 40px;
     color: white;
     margin: 200px 600px 0px 0px;
     max-width: 1200px;
@@ -313,8 +311,12 @@ form .btn2 input{
 .about ul{
     display: inline-block;
     list-style-type: none;
- }
+}
 
+.first_line{
+    display: flex;
+    gap: 40px;
+}
 .name{
     border: 2px solid white;
     padding: 15px;
