@@ -34,7 +34,7 @@ header h1{
     font-size: 35px ;
 }
 
-ul{
+.menu ul{
     background-color: white;
     background-image: linear-gradient(45deg,#e221f9,#2479f1);
     display: inline-block;
@@ -43,7 +43,7 @@ ul{
     list-style-type: none;
     border-radius: 30px;
 }
-li{
+.menu li{
     background: none;
     text-decoration: none;
     display: inline-block;
@@ -113,7 +113,7 @@ li{
 .features-img{
     width: 580px;
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     margin-right: 0%;
     margin-left: 800px;
 }
@@ -262,8 +262,58 @@ form .btn2 input{
     
 }
 
+.jobs-content{
+    display: flex;
+    color: white;
+}
+
+.jobs-content ul{
+    background: none;
+    list-style-type: none;
+}
+
+.jobs-content li{
+    font-weight: 500;
+}
+
+.full-stack-developer{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.member-list ul{
+    background: none;
+}
+
 footer{
     margin-top: 15%;
     text-align: center;
     color: white;
 }
+
+.data-scientist{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.back-end-developer{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.about{
+    color: white;
+    margin: 100px 800px 0px 0px;
+    max-width: 500px;
+}
+
+.about ul{
+    display: inline-block;
+    list-style-type: none;
+ }
