@@ -283,10 +283,30 @@ form .btn2 input{
     font-weight: 500;
 }
 
+.full-stack-developer{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
 .member-list ul{
     background: none;
 }
 
+.data-scientist{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.back-end-developer{
+    border: 6px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
 /* end of section */
 
 /* about page */
@@ -325,29 +345,8 @@ form .btn2 input{
 
 /* end of section */
 
-
-/* job description section*/
-.job-overview{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 460px;
-    gap: 280px;
-}
-
-.job-section{
-    color: white;
-    margin: 80px 0px 0px 0px;
-    padding: 0px;
-    max-width: 700px;
-}
-
-
-/* end of section */
-
-
 footer{
-    position: absolute;
-    margin-top: 61%;
+    margin-top: 15%;
     text-align: center;
     color: white;
 }
