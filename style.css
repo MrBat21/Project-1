@@ -345,6 +345,10 @@ th, td, tr{
     padding: 10px;
 }
 
+.about_footer{
+    margin-top: 30%;
+}
+
 /* end of section */
 
 /* job section*/
@@ -373,7 +377,8 @@ th, td, tr{
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 18px;
+    font-weight: 500;
     margin-right: 80%;
     background-image: linear-gradient(45deg,#e221f9,#2479f1);
     border-radius: 50%;
@@ -403,7 +408,7 @@ th, td, tr{
 
 footer{
     position: relative;
-    margin-top: 30%;
+    margin-top: 10%;
     text-align: center;
     padding: 3px;
     color: white;
