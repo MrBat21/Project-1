@@ -386,6 +386,21 @@ th, td, tr{
 
 
 /* end of section*/
+
+.enhance{
+    max-width: 700px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 1%;
+}
+
+.ench footer{
+    margin-top: 70%;
+}
+
+
 footer{
     position: relative;
     margin-top: 30%;
