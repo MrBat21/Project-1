@@ -16,6 +16,7 @@ body{
 
 header{
     text-align: center;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -33,7 +34,7 @@ header a:hover {
 
 header h1{
     color: white;
-    margin-top: 1%;
+    margin-top: 2%;
     font-size: 35px ;
 }
 
@@ -63,7 +64,7 @@ header h1{
     padding:15px 20px;
     color: #fff;
     background-image: linear-gradient(45deg,#e221f9,#2479f1);
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 30px;
     border-top-right-radius: 0;
     transition: 0.5s ;
@@ -104,12 +105,14 @@ header h1{
 }
 
 .content p{
+    font-size: 20px;
     margin: 10px 0 30px;
 }
 
 .content .btn{
     padding: 15px 80px;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .btn:hover{
@@ -117,9 +120,9 @@ header h1{
 }
 
 .features-img{
-    width: 580px;
+    width: 650px;
     position: absolute;
-    bottom: 20%;
+    bottom: 17%;
     margin-right: 0%;
     margin-left: 800px;
 }
@@ -142,7 +145,7 @@ input, textarea, select {
 }
 
 .index footer{
-    margin-top: 20%;
+    margin-top: 18%;
 }
 
 /* end of section */
@@ -353,7 +356,7 @@ th, td, tr{
 
 /* job section*/
 .job-image{
-    width: 400px;
+    width: 500px;
 }
 
 .job-overview{
@@ -386,7 +389,7 @@ th, td, tr{
 }
 
 .job footer{
-    margin-top: 17%;
+    margin-top: 5%;
 }
 
 
