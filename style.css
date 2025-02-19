@@ -309,6 +309,7 @@ form .btn2 input{
 .about{
     display: flex;
     flex-direction: column;
+    position: relative;
     margin-top: 80%;
     color: white;
     max-width: 1200px;
@@ -399,6 +400,7 @@ th, td, tr{
 }
 
 .job footer{
+    position: absolute;
     margin-top: 5%;
 }
 
