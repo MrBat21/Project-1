@@ -43,7 +43,8 @@ header a:hover {
 /* Header Title */
 header h1{
     color: white;
-    margin-top: 2%;
+    margin-top: 1%;
+    padding: 1.2%;
     font-size: 35px ;
 }
 
@@ -141,7 +142,6 @@ header h1{
     width: 100%;
     max-width: 650px;
     position: absolute;
-    bottom: 13%;
     margin-right: 0%;
     margin-left: 800px;
 }
