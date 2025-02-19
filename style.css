@@ -124,7 +124,7 @@ header h1{
     width: 100%;
     max-width: 650px;
     position: absolute;
-    bottom: 19%;
+    bottom: 13%;
     margin-right: 0%;
     margin-left: 800px;
 }
@@ -307,10 +307,13 @@ form .btn2 input{
 
 /* about page */
 .about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80%;
     color: white;
-    margin: 100px 0px 0px 0px;
     max-width: 1200px;
     font-size: 18px;
+    
 }
 
 .about ul{
@@ -323,7 +326,6 @@ form .btn2 input{
     justify-content: space-between;
     width: 100%;
     gap: 20px;
-    margin-top: 850px;
 }
 .name{
     border: 2px solid white;
@@ -341,7 +343,7 @@ form .btn2 input{
 }
 
 table{
-    margin: 20px;
+    margin: 20px auto;
     border: 2px solid white;
     border-radius: 20px;
 }
@@ -387,6 +389,7 @@ th, td, tr{
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-top: 1%;
     font-size: 18px;
     font-weight: 500;
     margin-right: 80%;
