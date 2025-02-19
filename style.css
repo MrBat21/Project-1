@@ -400,7 +400,8 @@ th, td, tr{
 }
 
 .job footer{
-    position: absolute;
+    position: relative;
+    text-align: center;
     margin-top: 5%;
 }
 
