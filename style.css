@@ -308,7 +308,7 @@ form .btn2 input{
 /* about page */
 .about{
     color: white;
-    margin: 500px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     max-width: 1200px;
     font-size: 18px;
 }
@@ -323,6 +323,7 @@ form .btn2 input{
     justify-content: space-between;
     width: 100%;
     gap: 20px;
+    margin-top: 850px;
 }
 .name{
     border: 2px solid white;
@@ -339,7 +340,6 @@ form .btn2 input{
     width: 25%;
 }
 
-
 table{
     margin: 20px;
     border: 2px solid white;
@@ -350,8 +350,13 @@ th, td, tr{
     padding: 10px;
 }
 
+.group-photo img{
+    width: 550px;
+    border-radius: 25px;
+}
+
 .about_footer{
-    margin-top: 30%;
+    margin-top: 50%;
 }
 
 /* end of section */
@@ -393,7 +398,6 @@ th, td, tr{
 .job footer{
     margin-top: 5%;
 }
-
 
 /* end of section*/
 
