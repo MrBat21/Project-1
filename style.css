@@ -142,6 +142,7 @@ header h1{
     width: 100%;
     max-width: 650px;
     position: absolute;
+    margin-top: 2%;
     margin-right: 0%;
     margin-left: 800px;
 }
@@ -354,21 +355,26 @@ form .btn2 input{
     padding: 20px;
     border-radius: 25px;
     width: 75%;
+    background: #070707 ;
 }
 
 .mail{
     flex: 1;
     border: 2px solid white;
+    font-size: 18px;
     padding: 10px;
     border-radius: 25px;
     width: 25%;
+    background: #070707;
 }
 
 table{
     margin: 20px auto;
     border: 2px solid white;
     border-radius: 20px;
+    background: #070707;
 }
+
 th, td, tr{
     font-weight: 500;
     padding: 10px;
@@ -379,6 +385,12 @@ th, td, tr{
     border-radius: 25px;
 }
 
+.second_line{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .about_footer{
     margin-top: 50%;
 }
@@ -387,7 +399,7 @@ th, td, tr{
 
 /* job section*/
 .job-image{
-    width: 500px;
+    width: 600px;
 }
 
 .job-overview{
