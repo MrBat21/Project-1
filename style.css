@@ -36,7 +36,7 @@ header a{
     margin:20px
 }
 
-header a:hover {
+header a:hover{
     text-decoration: underline;
 }
 
@@ -399,7 +399,7 @@ th, td, tr{
 
 /* job section*/
 .job-image{
-    width: 600px;
+    width: 550px;
 }
 
 .job-overview{
