@@ -414,6 +414,7 @@ th, td, tr{
 /* job section*/
 .job-image{
     width: 550px;
+    overflow: hidden;
 }
 
 .job-overview{
