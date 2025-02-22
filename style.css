@@ -420,6 +420,7 @@ th, td, tr{
 .job-overview{
     display: flex;
     justify-content: space-between;
+    will-change: transform, opacity;
     margin-top: 40px;
     gap: 60px;
 }
